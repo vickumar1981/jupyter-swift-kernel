@@ -87,7 +87,7 @@ class SwiftKernel(Kernel):
         # handle any errors
         for line in swift.stderr.readlines():
             # to clean up the default error message swift returns
-            line = re.sub('^.*error: ', '', line)
+            line = re.sub('^.*error: ', '', line.decode('utf-8'))
             errorOutput.append(line.rstrip("\n\r"))
         
         retval = swift.wait()
