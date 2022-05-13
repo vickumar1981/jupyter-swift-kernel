@@ -10,9 +10,9 @@ from ipykernel.kernelbase import Kernel
 class SwiftKernel(Kernel):
     # Jupiter stuff
     implementation = 'Swift'
-    implementation_version = '1.1.1'
+    implementation_version = '2.0.0'
     language = 'swift'
-    language_version = '3.0.2'
+    language_version = '5.6.1'
     language_info = {'mimetype': 'text/plain', 'file_extension': 'swift', 'name': 'swift'}
     banner = "Swift kernel"
     # my stuff
