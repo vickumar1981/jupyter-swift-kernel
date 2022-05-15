@@ -8,6 +8,10 @@ This is implemented as a Python wrapper kernel and supports the basic functional
 It works by creating a temporary file, dumping the user text into the file and running that through swift.
 The output is captured, massaged a little bit, and then sent back to Jupyter.
 
+## Try out the kernel online: [https://gotocode.io](https://gotocode.io)
+
+[![Gotocode](https://gotocode.io/static/assets/img/logo.jpg)](https://gotocode.io)
+
 ## Installation
 
 ### Requirements
